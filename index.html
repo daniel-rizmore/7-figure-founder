@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The 7 Figure Founder — Ross Tomkins</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ══ NAV ══════════════════════════════════════════ -->
+  <header class="nav" role="banner">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo" aria-label="The 7 Figure Founder">
+        <img src="../input/assets/logos/logo-white.png" alt="The 7 Figure Founder">
+      </a>
+      <nav aria-label="Primary">
+        <ul class="nav__links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#faq">FAQs</a></li>
+          <li><a href="#login">Log In</a></li>
+          <li><a href="#get-course" class="nav-cta">Get the Course!</a></li>
+        </ul>
+      </nav>
+      <button class="nav__burger" aria-label="Open menu"
+        onclick="document.querySelector('.nav__mobile').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="nav__mobile" aria-label="Mobile">
+      <a href="#about">About</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#faq">FAQs</a>
+      <a href="#login">Log In</a>
+      <a href="#get-course" class="nav-cta">Get the Course!</a>
+    </nav>
+  </header>
+
+  <!-- ══ HERO ═════════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero__inner">
+      <h1 class="hero__headline">
+        Most Business Owners Grow by Working More.<br>
+        The Smart Ones Grow by Acquisition.
+      </h1>
+      <p class="eyebrow">26+ Acquisitions &middot; Multiple 8-Figure Exits</p>
+      <p class="hero__sub">This Is Exactly How Ross Does It.</p>
+      <div class="hero__cover">
+        <img src="../input/assets/images/cover.png" alt="The 7 Figure Founder — Ross Tomkins">                                                               
+              <div class="hero__play" aria-hidden="true">                                                                                                       
+                <div class="hero__play-btn">                                                                                                                    
+                  <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M6 4l12 6-12 6V4z"/></svg>                                               
+              </div>                                                                                                                                          
+              </div> 
+        <!--<video
+          src="VIDEO_URL_HERE"
+          autoplay
+          muted
+          playsinline
+          loop
+          style="width:100%; display:block; object-fit:cover;"
+        ></video>-->
+      </div>
+      <a href="#get-course" class="btn btn--gold">I'm Ready to Scale</a>
+    </div>
+  </section>
+
+  <!-- ══ PAIN ══════════════════════════════════════════ -->
+  <section class="sec sec--soft" id="pain">
+    <div class="wrap">
+      <div class="pain__header">
+        <p class="eyebrow">The Real Problem</p>
+        <h2 class="sec__h">You Built Something Real. And It Owns You.</h2>
+      </div>
+      <div class="pain__cols">
+        <div class="sec__body pain__body">
+          <p>You started because you were good at it. You built a business because you wanted more. Somewhere along the way you stopped doing the work and became the person holding everything together.</p>
+          <p>The revenue is there. The team is there. <strong>But so are you. Every day. Every problem. Every call.</strong></p>
+          <p>You know your industry is consolidating. Competitors you have watched for years have sold. And you are not sure whether that future is coming for you on your terms — or someone else's.</p>
+          <p>At 11pm on a Tuesday you are running the numbers again. Not because they are bad. Because you cannot switch off.</p>
+          <p>This is not a business problem. <strong>It is a structure problem.</strong> And no amount of harder work will fix it.</p>
+        </div>
+        <div class="pain__img-grid">
+          <div class="pain__img-cell">
+            <img src="../input/assets/images/1.png" alt="">
+          </div>
+          <div class="pain__img-cell">
+            <img src="../input/assets/images/2.png" alt="">
+          </div>
+          <div class="pain__img-cell">
+            <img src="../input/assets/images/3.png" alt="">
+          </div>
+          <div class="pain__img-cell">
+            <img src="../input/assets/images/4.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ PLAYBOOK ══════════════════════════════════════ -->
+  <section class="sec sec--cream" id="playbook">
+    <div class="wrap--narrow">
+      <!--<p class="eyebrow eyebrow--dark">Why Nothing Has Changed Yet</p>-->
+      <h2 class="sec__h" style="color:var(--black);">Why The Standard Playbook Stops Working</h2>
+      <div class="sec__body playbook__body">
+        <p>Most business owners scale the way they started. More hires. More marketing. More effort.</p>
+        <p>That works, until it doesn't. Because eventually your time becomes the ceiling — and every new client, every new contract, every new hire adds complexity that finds its way back to you.</p>
+        <p>You have tried the conventional answers.</p>
+        <div class="playbook-neg-grid">
+          <div class="playbook-neg-card">
+            <svg class="playbook-neg-card__icon" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M3 11V13M21 5L17 9M21 19L17 15M5 8H3C2.448 8 2 8.448 2 9V15C2 15.552 2.448 16 3 16H5L10 20V4L5 8Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 9C14.667 9.667 15 10.333 15 11.5C15 12.667 14.667 13.5 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            <span class="playbook-neg-card__text">Marketing agencies</span>
+          </div>
+          <div class="playbook-neg-card">
+            <svg class="playbook-neg-card__icon" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="12" cy="7" r="3.5" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M5 20C5 16.686 8.134 14 12 14C15.866 14 19 16.686 19 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M19 8L21 10L19 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="playbook-neg-card__text">Business coaches</span>
+          </div>
+          <div class="playbook-neg-card">
+            <svg class="playbook-neg-card__icon" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="2" y="5" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M10 9.5L15 12L10 14.5V9.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="playbook-neg-card__text">Webinars</span>
+          </div>
+          <div class="playbook-neg-card">
+            <svg class="playbook-neg-card__icon" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M6.5 2H20V22H6.5A2.5 2.5 0 0 1 4 19.5V4.5A2.5 2.5 0 0 1 6.5 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="playbook-neg-card__text">Books</span>
+          </div>
+        </div>
+        <p style="margin-top:20px;">You understand the theory. The problem is not knowledge. It is that nobody is showing you a model that actually changes the structure of what you are building.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ THREE WAYS ════════════════════════════════════ -->
+  <section class="sec sec--dark" id="three-ways">
+    <div class="wrap--narrow">
+      <p class="eyebrow">A Different Model</p>
+      <h2 class="sec__h">There Are Only Three Ways to Grow a Business</h2>
+      <div class="three-ways__cards">
+        <div class="way-card">
+          <svg class="way-card__icon" fill="none" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M5 23L10 18M16.5 4L24 11.5L11 24.5L3.5 17L16.5 4Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M20 4H24V8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="way-card__label">Build It</span>
+        </div>
+        <div class="way-card">
+          <svg class="way-card__icon" fill="none" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M2 20L7 15H10L13 12H17L22 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2 20L6 24L10 20L13 23L17 19L20 22L26 16L22 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M10 15L13 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <span class="way-card__label">Partner Into It</span>
+        </div>
+        <div class="way-card">
+          <svg class="way-card__icon" fill="none" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="3" y="7" width="22" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M19 7V6C19 4.343 17.657 3 16 3H12C10.343 3 9 4.343 9 6V7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M3 14H25M10 14V17M18 14V17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <span class="way-card__label">Buy It</span>
+        </div>
+      </div>
+      <div class="sec__body three-ways__body">
+        <p>Most business owners spend their entire career in the first. It is the slowest path. The most demanding. And the one most likely to keep you personally responsible for everything that moves.</p>
+        <p>The 7 Figure Founder shows you how to use all three — properly. Starting with the part nobody else addresses first.</p>
+        <p class="three-ways__you">YOU.</p>
+        <p>Because you cannot build a skyscraper on the foundation of a bungalow. And you cannot scale a business beyond yourself if the person trying to do it is running on empty, unclear on direction and not yet thinking like an owner.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ FRAMEWORK INTRO ═══════════════════════════════ -->
+  <section class="sec sec--cream" id="framework">
+    <div class="wrap">
+      <div class="framework__header">
+        <p class="eyebrow eyebrow--dark">Introducing The 7 Figure Founder</p>
+        <h2 class="sec__h" style="color:var(--black);">A Complete Framework for Business Owners Ready to Scale Beyond Their Own Capacity</h2>
+        <p class="framework__desc">Refined across 26+ acquisitions and nearly two decades of real-world execution. This is not theory. This is how Ross builds, and how he is still building, every single week.</p>
+        <img src="../input/assets/images/mockup.png" alt="The 7 Figure Founder mockup" class="framework__mockup" />
+        <p class="framework__disclaimer">*All Program Materials Delivered in Digital Format.</p>
+      </div>
+      <div class="benefit-grid">
+        <div class="benefit-card">
+          <svg class="benefit-card__icon" fill="none" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="18" cy="18" r="15" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M11 18h14M18 11v14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <h3 class="benefit-card__title">Scale Without More Hours</h3>
+          <p class="benefit-card__body">Grow beyond your personal capacity instead of being limited by it. The ceiling is structural, not personal.</p>
+        </div>
+        <div class="benefit-card">
+          <svg class="benefit-card__icon" fill="none" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+            <rect x="5" y="5" width="26" height="26" rx="4" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M12 18l4.5 4.5 7.5-8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <h3 class="benefit-card__title">Move From Operator to Owner</h3>
+          <p class="benefit-card__body">Step out of day-to-day dependency and into genuine control. The business runs because it is built properly — not because you are holding it together.</p>
+        </div>
+        <div class="benefit-card">
+          <svg class="benefit-card__icon" fill="none" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 28l7-9 5.5 5.5 5.5-7.5 6 7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="29" cy="9" r="4.5" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+          <h3 class="benefit-card__title">Build Long-Term Wealth</h3>
+          <p class="benefit-card__body">Create something that extends beyond a single business. Real wealth is not revenue. It is what you own, what you have exited and how much of your time you have bought back.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ MODULES ═══════════════════════════════════════ -->
+  <section class="sec sec--dark" id="modules">
+    <div class="wrap">
+      <div class="modules__header">
+        <p class="eyebrow">Inside The 7 Figure Founder</p>
+        <h2 class="sec__h">A Progression. Not a Collection.</h2>
+        <p class="modules__desc">This is not a collection of lessons. It is a progression. Each module builds on the last because that sequence is what makes it work.</p>
+      </div>
+      <div class="module-grid">
+
+        <div class="module-card">
+          <p class="module-card__num">Module 01</p>
+          <h3 class="module-card__title">Setting the Stage</h3>
+          <p class="module-card__body">Before strategy comes clarity. Define what you are actually working toward, understand the three paths to growth — buy, build or partner — and complete your Scale Readiness Assessment so you know exactly where you stand before you take a single step forward.</p>
+          <p class="module-card__outcome">You move from reactive to intentional.</p>
+        </div>
+
+        <div class="module-card">
+          <p class="module-card__num">Module 02</p>
+          <h3 class="module-card__title">Health Is the Foundation</h3>
+          <p class="module-card__body">Your health is your most important business asset. You'll establish your personal health baseline, learn the Vase Principle for building your life around what matters most and implement Conscious Calendaring — the three-column system that ensures high performance never comes at the cost of your wellbeing.</p>
+          <p class="module-card__outcome">You stop running on empty.</p>
+        </div>
+
+        <div class="module-card">
+          <p class="module-card__num">Module 03</p>
+          <h3 class="module-card__title">Mindset and Execution</h3>
+          <p class="module-card__body">Deal-making is not easy and anyone who tells you otherwise has not done enough deals. You will face rejection cycles that last months. This module gives you the tools to keep going — reverse engineering from an audacious goal down to your daily non-negotiables.</p>
+          <p class="module-card__outcome">You become consistent, not just motivated.</p>
+        </div>
+
+        <div class="module-card">
+          <p class="module-card__num">Module 04</p>
+          <h3 class="module-card__title">Spirituality and Identity</h3>
+          <p class="module-card__body">The founders who scale are the ones who know who they are before the pressure arrives. This module covers identity work, spiritual practice and leading with clarity rather than fear. If you are not ready for it yet, put a pin in it. It will be here.</p>
+          <p class="module-card__outcome">You stop thinking like an operator.</p>
+        </div>
+
+        <div class="module-card">
+          <p class="module-card__num">Module 05</p>
+          <h3 class="module-card__title">Visibility and Growth Strategy</h3>
+          <p class="module-card__body">Trust is built before opportunity appears — not at the same time. Personal branding, the Zero Moment of Truth, mentorship and the £10/£100/£1,000 task framework. Stop doing the wrong work and start having the conversations that actually move the needle.</p>
+          <p class="module-card__outcome">You stop chasing and start attracting.</p>
+        </div>
+
+        <div class="module-card">
+          <p class="module-card__num">Module 06</p>
+          <h3 class="module-card__title">Strategic Partnerships and Funding</h3>
+          <p class="module-card__body">Joint ventures, strategic partnerships, business development contracts and grant funding most business owners do not know exists. Growth that does not require you to raise capital or do it alone.</p>
+          <p class="module-card__outcome">You unlock growth without increasing workload.</p>
+        </div>
+
+        <div class="module-card">
+          <p class="module-card__num">Module 07</p>
+          <h3 class="module-card__title">Mergers & Acquisitions: Finding the Right Deal</h3>
+          <p class="module-card__body">Define your acquisition strategy, identify the right businesses, build rapport with sellers and learn to value a business properly. Because valuation changes everything — what you pay, how you structure and whether the deal makes sense at all.</p>
+          <p class="module-card__outcome">You replace guesswork with clarity.</p>
+        </div>
+
+        <div class="module-card">
+          <p class="module-card__num">Module 08</p>
+          <h3 class="module-card__title">Mergers & Acquisitions: Closing the Deal</h3>
+          <p class="module-card__body">Twenty ways to acquire a business, including with no money down. Capital raising, deal teams, due diligence and a full real-life case study walk-through. This module closes the gap between understanding deals and doing them.</p>
+          <p class="module-card__outcome">You move from learning to executing.</p>
+        </div>
+
+        <div class="module-card">
+          <p class="module-card__num">Module 09</p>
+          <h3 class="module-card__title">Wealth Creation and Protection</h3>
+          <p class="module-card__body">Wealth is not revenue. Asset classes, geographic diversification, protecting what you have built, investing your exits wisely and building a life not tied to the performance of one business.</p>
+          <p class="module-card__outcome">You build beyond income.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ WHY THIS WORKS ════════════════════════════════ -->
+  <section class="sec sec--cream" id="why">
+    <div class="wrap--narrow">
+      <p class="eyebrow eyebrow--dark">The Difference</p>
+      <h2 class="sec__h" style="color:var(--black);">Why This Works When Other Programs Don't</h2>
+      <div class="sec__body why__body">
+        <p>Most programs start with tactics. This one doesn't.</p>
+        <p>Because the founders who fail at deals are not failing tactically. They are failing psychologically. And the business owners who never reach their potential are not failing strategically. They are failing structurally — trying to build something extraordinary on a foundation that was never built to hold it.</p>
+        <p>The 7 Figure Founder is built in order:</p>
+      </div>
+      <div class="why__sequence">
+        <div class="why__node">
+          <span class="why__node-num">01</span>
+          <span class="why__node-label">Foundation</span>
+        </div>
+        <span class="why__arrow" aria-hidden="true">→</span>
+        <div class="why__node">
+          <span class="why__node-num">02</span>
+          <span class="why__node-label">Execution</span>
+        </div>
+        <span class="why__arrow" aria-hidden="true">→</span>
+        <div class="why__node">
+          <span class="why__node-num">03</span>
+          <span class="why__node-label">Growth</span>
+        </div>
+        <span class="why__arrow" aria-hidden="true">→</span>
+        <div class="why__node">
+          <span class="why__node-num">04</span>
+          <span class="why__node-label">Scale</span>
+        </div>
+        <span class="why__arrow" aria-hidden="true">→</span>
+        <div class="why__node">
+          <span class="why__node-num">05</span>
+          <span class="why__node-label">Wealth</span>
+        </div>
+      </div>
+      <p class="why__after">That sequence is not arbitrary. It is the reason it works.</p>
+    </div>
+  </section>
+
+  <!-- ══ RESULTS ═══════════════════════════════════════ -->
+  <section class="sec sec--soft" id="testimonials">
+    <div class="wrap">
+      <div class="results__header">
+        <h2 class="sec__h">The Results</h2>
+      </div>
+      <div class="metrics-row">
+        <div class="metric">
+          <p class="metric__num" data-count="26">26+</p>
+          <p class="metric__label">Acquisitions completed</p>
+        </div>
+        <div class="metric">
+          <p class="metric__num" data-count="5">5</p>
+          <p class="metric__label">Successful exits</p>
+        </div>
+        <div class="metric">
+          <p class="metric__num" data-scramble="7–8 Fig">7–8 Fig</p>
+          <p class="metric__label">Businesses built, scaled and sold</p>
+        </div>
+      </div>
+      <div class="testimonial-grid">
+        <div class="t-card">
+          <p class="t-card__name">Devdeep Singh</p>
+          <p class="t-card__body">Came into Ross's world two years ago with four employees, £600,000 in revenue and a level of burnout that had him close to walking away entirely. Today he works 10 hours a week, has completed 6 acquisitions, employs 200 people and will cross £20 million in revenue this year.</p>
+        </div>
+        <div class="t-card">
+          <p class="t-card__name">Ove, Claire &amp; Yves</p>
+          <p class="t-card__body">Each completed 2 to 3 acquisitions and scaled their physiotherapy businesses to seven figures. Four doctors and two home care providers have started and scaled businesses under Ross's guidance. Seven figures of investment capital has been raised from within his mastermind community alone.</p>
+        </div>
+      </div>
+      <p class="results__disclaimer">These results are not typical. But they show what is possible when the foundation is right and the model changes.</p>
+    </div>
+  </section>
+
+  <!-- ══ ABOUT ══════════════════════════════════════════ -->
+  <section class="sec sec--cream" id="about">
+    <div class="wrap">
+      <div class="about__header">
+        <p class="eyebrow eyebrow--dark">About</p>
+        <h2 class="sec__h about__title">Ross Tomkins</h2>
+      </div>
+      <div class="about__grid">
+        <div>
+          <img src="../input/assets/images/instructor.png" alt="Ross Tomkins" class="about__photo" />
+        </div>
+        <div class="about__body">
+          <p>Ross did not arrive at mergers and acquisitions through a straight line. He spent nearly a decade building a physiotherapy business one client at a time until it reached £1.7 million in revenue. Then a single meeting cost him seventy percent of that overnight. Within ten minutes he was planning. Not grieving. Planning.</p>
+          <p>The business was rebuilt, then sold. A new chapter began. The first two years of deal-making produced no acquisitions. Hesitation. Procrastination. Deals missed because the fear of commitment disguised itself as the need for more due diligence. Ross lived the psychological reality of deal-making before he mastered it — which is why he understands it in a way no course or credential can manufacture.</p>
+          <p>In May 2025 he was airlifted off Denali. Five specialists across five countries. Five different diagnoses. Surgery followed. More awaits. Through all of it he kept building, mentoring and doing deals — not because he is invincible, but because he has built his life on a foundation that does not collapse when one part of it is under repair.</p>
+          <p>He still does deals. Every single week. He is not teaching history.</p>
+        </div>
+      </div>
+      <div class="about__stats">
+        <div class="cred">
+          <div class="cred__icon">
+            <svg fill="none" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.5 2l1.545 3.13L13.5 5.635l-2.5 2.435.59 3.43L8.5 9.77l-3.09 1.73.59-3.43L3.5 5.635l3.455-.505L8.5 2z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/>
+              <path d="M5.5 13.5h6M8.5 11.5v2" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span>26+ acquisitions completed, multiple successful exits, three more deals in progress</span>
+        </div>
+        <div class="cred">
+          <div class="cred__icon">
+            <svg fill="none" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="6" cy="6" r="2.5" stroke="currentColor" stroke-width="1.3"/>
+              <path d="M1.5 14c0-2.485 2.015-4.5 4.5-4.5s4.5 2.015 4.5 4.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+              <circle cx="12" cy="5.5" r="2" stroke="currentColor" stroke-width="1.3"/>
+              <path d="M11 9.6c.32-.07.655-.1 1-.1 1.933 0 3.5 1.567 3.5 3.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span>Shares platforms with Jeremy Harbour, Carl Allen, Nick Bradley, Roland Frasier, Cameron Herald and Adam Coffey</span>
+        </div>
+        <div class="cred">
+          <div class="cred__icon">
+            <svg fill="none" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.5 1.5l1.237 3.805H14l-3.118 2.265 1.19 3.658L8.5 9.07l-3.572 2.158 1.19-3.658L2.5 5.305H7.263L8.5 1.5z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/>
+              <path d="M4 14.5h9" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+              <path d="M6 12v2.5M8.5 12v2.5M11 12v2.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span>Founder of The 7 Figure Founder and the Business Acquisition Virtual Summit — combined 10,000+ registrants</span>
+        </div>
+        <div class="cred">
+          <div class="cred__icon">
+            <svg fill="none" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3.5 2.5h7a1 1 0 011 1v10a1 1 0 01-1 1h-7a1 1 0 01-1-1v-10a1 1 0 011-1z" stroke="currentColor" stroke-width="1.3"/>
+              <path d="M5.5 6h5M5.5 8.5h5M5.5 11h3" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+              <path d="M11.5 5l2-2M13.5 3l1.5 1.5-4 4-1.5-1.5 4-4z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <span>Authored two books; Founder of both Alphagenix Ltd and Balmoral Partners FZCO.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ WHO FOR ════════════════════════════════════════ -->
+  <section class="sec sec--dark" id="who">
+    <div class="wrap">
+      <h2 class="sec__h" style="margin-bottom:56px;">Who This Is For</h2>
+      <div class="who__cols">
+        <div>
+          <p class="who__col-label who__col-label--yes">This is for you if:</p>
+          <ul class="who-list">
+            <li class="who-item who-item--yes">
+              <svg class="who-icon" fill="none" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="10" cy="10" r="9" stroke="#C6A15B" stroke-width="1.5"/>
+                <path d="M6.5 10l2.5 2.5 4.5-5" stroke="#C6A15B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              You already run a business and you feel capped by time, not by opportunity
+            </li>
+            <li class="who-item who-item--yes">
+              <svg class="who-icon" fill="none" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="10" cy="10" r="9" stroke="#C6A15B" stroke-width="1.5"/>
+                <path d="M6.5 10l2.5 2.5 4.5-5" stroke="#C6A15B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              You want to scale without simply adding more to your plate
+            </li>
+            <li class="who-item who-item--yes">
+              <svg class="who-icon" fill="none" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="10" cy="10" r="9" stroke="#C6A15B" stroke-width="1.5"/>
+                <path d="M6.5 10l2.5 2.5 4.5-5" stroke="#C6A15B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              You are open to acquisitions, partnerships and structures you have not tried before
+            </li>
+            <li class="who-item who-item--yes">
+              <svg class="who-icon" fill="none" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="10" cy="10" r="9" stroke="#C6A15B" stroke-width="1.5"/>
+                <path d="M6.5 10l2.5 2.5 4.5-5" stroke="#C6A15B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              You want to be led by someone who is still in the game, not teaching from memory
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p class="who__col-label who__col-label--no">This is not for:</p>
+          <ul class="who-list">
+            <li class="who-item who-item--no">
+              <svg class="who-icon" fill="none" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="10" cy="10" r="9" stroke="#B8AA98" stroke-width="1.5"/>
+                <path d="M7.5 7.5l5 5M12.5 7.5l-5 5" stroke="#B8AA98" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              People who are just starting out
+            </li>
+            <li class="who-item who-item--no">
+              <svg class="who-icon" fill="none" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="10" cy="10" r="9" stroke="#B8AA98" stroke-width="1.5"/>
+                <path d="M7.5 7.5l5 5M12.5 7.5l-5 5" stroke="#B8AA98" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              Anyone looking for shortcuts or overnight results
+            </li>
+            <li class="who-item who-item--no">
+              <svg class="who-icon" fill="none" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="10" cy="10" r="9" stroke="#B8AA98" stroke-width="1.5"/>
+                <path d="M7.5 7.5l5 5M12.5 7.5l-5 5" stroke="#B8AA98" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              Founders who are not prepared to do the work
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ WHAT YOU GET ═══════════════════════════════════ -->
+  <section class="sec sec--cream" id="get-course">
+    <div class="wrap">
+      <div class="deliverables__header">
+        <p class="eyebrow eyebrow--dark">What You Get Inside The 7 Figure Founder</p>
+        <h2 class="sec__h" style="color:var(--black);">The complete step-by-step model for how to identify, structure and execute deals</h2>
+        <p>So you're not guessing or piecing things together</p>
+      </div>
+      <div class="deliverable-grid">
+
+        <!--<div class="d-card">
+          <svg class="d-card__icon" fill="none" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+            <rect x="5" y="5" width="26" height="26" rx="3" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M11 14h14M11 18h10M11 22h7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <h3 class="d-card__title">The Complete Step-by-Step Model</h3>
+          <p class="d-card__sub">How to identify, structure and execute deals</p>
+          <p class="d-card__body">So you're not guessing or piecing things together</p>
+        </div>-->
+
+        <div class="d-card">
+          <svg class="d-card__icon" fill="none" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="18" cy="18" r="13" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M18 10v8l5 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <h3 class="d-card__title">Deal Sourcing System</h3>
+          <p class="d-card__sub">How to consistently find real opportunities (not noise)</p>
+          <p class="d-card__body">Including how to position yourself so deals come to you</p>
+        </div>
+
+        <div class="d-card">
+          <svg class="d-card__icon" fill="none" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 11h22M7 18h16M7 25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M26 22l5 5m0 0h-5m5 0v-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <h3 class="d-card__title">Deal Structuring Breakdowns</h3>
+          <p class="d-card__sub">Clear walkthroughs of how deals are actually put together</p>
+          <p class="d-card__body">So you understand what makes a deal work before you get involved</p>
+        </div>
+
+        <div class="d-card">
+          <svg class="d-card__icon" fill="none" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+            <rect x="7" y="7" width="22" height="22" rx="2" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M13 14h10M13 18h7M13 22h9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <h3 class="d-card__title">Templates + Scripts</h3>
+          <p class="d-card__sub">Outreach scripts, deal flow templates, positioning frameworks</p>
+          <p class="d-card__body">So you don't have to start from scratch</p>
+        </div>
+
+        <div class="d-card">
+          <svg class="d-card__icon" fill="none" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="18" cy="18" r="11" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="18" cy="18" r="4" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M18 7v4M18 25v4M7 18h4M25 18h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <h3 class="d-card__title">AI Deal Tools</h3>
+          <p class="d-card__sub">Analyze opportunities faster, spot patterns, streamline your process</p>
+          <p class="d-card__body">Tools to help you work with clarity at each stage</p>
+        </div>
+
+        <div class="d-card">
+          <svg class="d-card__icon" fill="none" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 5C10.82 5 5 10.82 5 18c0 2.3.47 4.48 1.32 6.46L5 31l6.72-1.3A12.93 12.93 0 0 0 18 31c7.18 0 13-5.82 13-13S25.18 5 18 5z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            <path d="M13 16c0-.55.45-1 1-1h8a1 1 0 0 1 0 2h-8a1 1 0 0 1-1-1zM13 21h5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <h3 class="d-card__title">Private WhatsApp Group</h3>
+          <p class="d-card__sub">Direct access to Ross and fellow members of the program</p>
+          <p class="d-card__body">THIS is where deals get done</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ UPSELL ═════════════════════════════════════════ -->
+  <section class="sec sec--soft" id="upsell">
+    <div class="wrap">
+      <div class="upsell__header">
+        <p class="eyebrow">If You Want to Go Further</p>
+        <h2 class="sec__h">The Course Is Where It Starts. The Network and Partnership Are Where It Compounds.</h2>
+      </div>
+      <div class="upsell-grid">
+        <div class="u-card u-card--gold">
+          <p class="u-card__label">The Ascend Network</p>
+          <h3 class="u-card__title">Live Deal-Making &amp; Execution</h3>
+          <p class="u-card__body">A live deal-making and execution environment with access to Ross's active network and community of serious operators. For more information on this more involved process, DM me</p>
+        </div>
+        <div class="u-card">
+          <p class="u-card__label">The Ascend Partnership</p>
+          <h3 class="u-card__title">Direct Collaboration with Ross</h3>
+          <p class="u-card__body">Want to collaborate with Ross and the entire Balmoral Partners team? Apply today</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ FAQ ════════════════════════════════════════════ -->
+  <section class="sec sec--cream" id="faq">
+    <div class="wrap--narrow">
+      <h2 class="sec__h" style="color:var(--black); margin-bottom:48px;">Common Questions</h2>
+      <div class="faq-list">
+
+        <details class="faq-item">
+          <summary>I have never done a deal before.<span class="faq-icon" aria-hidden="true">+</span></summary>
+          <p class="faq-body">Most people haven't. That is exactly where this course begins, with the foundation and the framework, before the first conversation with a seller.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>I don't have capital.<span class="faq-icon" aria-hidden="true">+</span></summary>
+          <p class="faq-body">Deals are structured, not just funded. The course covers 20 different ways to acquire a business, including approaches that require no money down.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>I don't have time.<span class="faq-icon" aria-hidden="true">+</span></summary>
+          <p class="faq-body">Your current model is not going to create more of it. That is precisely the problem this course is built to solve.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Will this work for my type of business?<span class="faq-icon" aria-hidden="true">+</span></summary>
+          <p class="faq-body">Ross has worked with physiotherapy clinic owners, home care providers, GP practices and specialist healthcare businesses. The 7 Figure Founder applies across the sector.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Is this just theory?<span class="faq-icon" aria-hidden="true">+</span></summary>
+          <p class="faq-body">Ross is currently working three live deals. The case studies in this course are drawn from acquisitions he has completed. Nothing here is taught from memory.</p>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ CLOSING CTA ════════════════════════════════════ -->
+  <section class="closing" id="closing">
+    <div class="closing__inner">
+      <h2 class="closing__title">The Decision</h2>
+      <p class="closing__lead">You already know how to build.</p>
+      <p class="closing__sub">The question is whether you continue doing it the same way — more effort, more hours, more weight on the same foundation — or whether you change the model entirely.</p>
+      <p class="closing__sub closing__sub--highlight">The 7 Figure Founder shows you how to scale beyond yourself. Not by working harder. By building differently.</p>
+      <a href="#get-course" class="btn btn--dark" style="padding:17px 52px; font-size:16px;">I'm Ready to Scale</a>
+    </div>
+  </section>
+
+  <!-- ══ FOOTER ═════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <a href="#" class="footer__logo" aria-label="The 7 Figure Founder">
+        <img src="../input/assets/logos/logo-white.png" alt="The 7 Figure Founder">
+      </a>
+      <p class="footer__copy">&copy; 2026 The 7 Figure Founder. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
